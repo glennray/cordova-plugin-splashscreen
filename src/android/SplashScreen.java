@@ -89,7 +89,7 @@ public class SplashScreen extends CordovaPlugin {
         // Save initial orientation.
         orientation = cordova.getActivity().getResources().getConfiguration().orientation;
 
-        firstShow = false;
+        firstShow = true;
         loadSpinner();
         showSplashScreen(true);
     }
